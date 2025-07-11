@@ -142,8 +142,9 @@ nav ul li a:hover {
   margin-right: auto;
 }
 
-.texs{
-text-align: center;
-font-weight: bold;
-font-size: 20px;
+.center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* biar 
 }
