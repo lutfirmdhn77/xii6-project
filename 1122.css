@@ -1,0 +1,79 @@
+
+
+
+header {}
+
+.logo img {
+  width: 60px;
+  height: auto;
+  max-width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #1e90ff;
+}
+
+
+.footer {
+  background: linear-gradient(to right, #2c3e50, #34495e); /* gradasi warna gelap */
+  color: #ecf0f1; /* warna teks putih abu2 */
+  text-align: center;
+  padding: 25px 10px;
+  font-size: 14px;
+  margin-top: 80px;
+  border-top: 3px solid #1abc9c; /* garis atas warna hijau toska */
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  animation: fadeInUp 1s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer a {
+  color: #1abc9c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #16a085;
+  text-shadow: 0 0 5px #1abc9c;
+}
+
+/* Efek animasi masuk dari bawah */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.teksss{
+  text-align: center;
+  font-display: serif;
+  font-size: 30px
+  
+}
+.logo22 img{
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}

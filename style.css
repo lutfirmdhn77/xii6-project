@@ -1,0 +1,143 @@
+/* RESET STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* GLOBAL */
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden; /* ANTI SLIDE SAMPING */
+  background: linear-gradient(-45deg, #0a0f3d, #1e3c72, #000000, #2a5298);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+  color: white;
+}
+
+/* ANIMASI BACKGROUND */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  flex-wrap: wrap; /* biar responsive */
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: black;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+  max-width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #1e90ff;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  max-width: 100%;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+.hero span {
+  color: #00ffff;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hero2{
+  text-align: center;
+  padding: 50px 20px;
+  max-wadth: 100;
+}
+.branding {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logoBESAR img {
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.IGEE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.IGEE img {
+  width: 40px;
+}
+
+.galeri img {
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 10px; /* Biar ada sudut melengkung */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
